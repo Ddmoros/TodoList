@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="todoList">
+             <div class="header"><h1><strong>ToDo List</strong></h1></div>
+
+             <form class="addTask">
+                <input type="text">
+                <button>
+                    <i class="fas fa-plus"></i>
+                </button>
+             </form>
+
+            <div class="todoListContainer">
+                <div class="pending">
+                    <h3><span id="total-pending">0</span><span> Pending Tasks</span></h3>
+                </div>
+
+                <div class="pendingTaskList">
+                    <ul id="pending-list"></ul>
+                </div>
+
+                <div class="completedTasksHeader">
+                    <h3><span id="total-completed">0</span><span> Completed Tasks</span></h3>
+                </div>
+
+                <div class="completedTasks">
+                    <ul id="completed-list"></ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+ <script src="script.js" ></script>
+</body>
+</html>
